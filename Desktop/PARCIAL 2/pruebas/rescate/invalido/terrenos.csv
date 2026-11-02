@@ -1,0 +1,7 @@
+X,pared,no,0
+.,pasillo,si,1
+L,lodo,si,0
+X,otra pared,no,0
+S,inicio,si,0
+M,meta,si,1
+Q,roto,quiza,2
