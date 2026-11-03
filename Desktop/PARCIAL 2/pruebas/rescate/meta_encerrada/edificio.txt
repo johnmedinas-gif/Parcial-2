@@ -1,0 +1,5 @@
+# La meta M está rodeada de paredes
+X X X X X X
+X S . X M X
+X . . X . X
+X X X X X X
