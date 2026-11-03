@@ -1,0 +1,10 @@
+Se encontraron 9 error(es):
+- terrenos.csv línea 3: el terreno 'L' es transitable y su costo debe ser positivo
+- terrenos.csv línea 4: el símbolo 'X' está repetido (ya definido en la línea 1)
+- terrenos.csv línea 7: transitable debe ser 'si' o 'no' y se recibió 'quiza'
+- edificio.txt línea 5: la fila tiene 4 columnas y se esperaban 5
+- edificio.txt línea 2, coordenada {1,3}: el símbolo 'Z' no está definido en terrenos.csv
+- edificio.txt: hay 2 símbolos 'S' (en {1,1}, {2,2}) y se esperaba exactamente uno
+- edificio.txt: no hay ningún 'M' y se esperaba exactamente uno
+- edificio.txt línea 3, coordenada {2,4}: el borde debe ser 'X' y hay '.'
+- bateria.txt línea 2: dato adicional '20'; B debe ser un único entero positivo

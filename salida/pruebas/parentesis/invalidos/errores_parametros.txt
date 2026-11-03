@@ -1,0 +1,4 @@
+parametros.csv línea 2: n debe ser >= 1 y se recibió 0
+parametros.csv línea 3: profundidad_max debe cumplir 1 <= p <= n (n=3) y se recibió 5
+parametros.csv línea 4: n debe ser un entero y se recibió 'abc'
+parametros.csv línea 5: se esperaban 2 campos (n;profundidad_max) y hay 3

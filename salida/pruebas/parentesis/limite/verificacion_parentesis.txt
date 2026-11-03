@@ -1,0 +1,6 @@
+Línea 1 | n=1 p=1 | () | VÁLIDA (profundidad alcanzada 1)
+Línea 2 | n=2 p=1 | ()() | VÁLIDA (profundidad alcanzada 1)
+Línea 3 | n=2 p=1 | (()) | INVÁLIDA (profundidad alcanzada 2)
+    - excede la profundidad máxima p = 1: primer prefijo problemático "((" (posición 1); profundidad máxima alcanzada 2
+Línea 4 | n=3 p=3 |  | INVÁLIDA (profundidad alcanzada 0)
+    - longitud 0, se esperaba 2n = 6

@@ -1,0 +1,5 @@
+Línea 1 | n=3 p=2 | (()()) | VÁLIDA (profundidad alcanzada 2)
+Línea 2 | n=3 p=2 | ((())) | INVÁLIDA (profundidad alcanzada 3)
+    - excede la profundidad máxima p = 2: primer prefijo problemático "(((" (posición 2); profundidad máxima alcanzada 3
+Línea 3 | n=3 p=2 | ())(() | INVÁLIDA (profundidad alcanzada 1)
+    - cierra más paréntesis de los abiertos: primer prefijo problemático "())" (posición 2)

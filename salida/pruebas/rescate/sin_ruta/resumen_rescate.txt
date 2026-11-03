@@ -1,0 +1,3 @@
+Resumen del rescate (B = 2)
+Total de recorridos válidos: 0
+No existe ningún recorrido válido: la meta no se alcanza sin superar B.

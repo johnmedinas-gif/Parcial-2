@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="350" viewBox="0 0 360 350">
+<title>Ruta de menor energía del robot de rescate</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="0" y="0" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{0,0} X (pared, no transitable)</title></rect>
+<text x="20" y="25" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="40" y="0" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{0,1} X (pared, no transitable)</title></rect>
+<text x="60" y="25" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="80" y="0" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{0,2} X (pared, no transitable)</title></rect>
+<text x="100" y="25" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="120" y="0" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{0,3} X (pared, no transitable)</title></rect>
+<text x="140" y="25" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="160" y="0" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{0,4} X (pared, no transitable)</title></rect>
+<text x="180" y="25" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="200" y="0" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{0,5} X (pared, no transitable)</title></rect>
+<text x="220" y="25" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="0" y="40" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{1,0} X (pared, no transitable)</title></rect>
+<text x="20" y="65" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="40" y="40" width="40" height="40" fill="#66bb6a" stroke="#90a4ae" stroke-width="0.5"><title>{1,1} S (inicio, transitable, costo 0)</title></rect>
+<text x="60" y="65" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">S</text>
+<rect x="80" y="40" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{1,2} . (pasillo, transitable, costo 1)</title></rect>
+<text x="100" y="65" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="120" y="40" width="40" height="40" fill="#a1887f" stroke="#90a4ae" stroke-width="0.5"><title>{1,3} L (lodo, transitable, costo 3)</title></rect>
+<text x="140" y="65" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">L</text>
+<rect x="160" y="40" width="40" height="40" fill="#ffca28" stroke="#90a4ae" stroke-width="0.5"><title>{1,4} M (meta, transitable, costo 1)</title></rect>
+<text x="180" y="65" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">M</text>
+<rect x="200" y="40" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{1,5} X (pared, no transitable)</title></rect>
+<text x="220" y="65" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="0" y="80" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{2,0} X (pared, no transitable)</title></rect>
+<text x="20" y="105" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="40" y="80" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{2,1} . (pasillo, transitable, costo 1)</title></rect>
+<text x="60" y="105" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="80" y="80" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{2,2} X (pared, no transitable)</title></rect>
+<text x="100" y="105" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="120" y="80" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{2,3} . (pasillo, transitable, costo 1)</title></rect>
+<text x="140" y="105" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="160" y="80" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{2,4} . (pasillo, transitable, costo 1)</title></rect>
+<text x="180" y="105" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="200" y="80" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{2,5} X (pared, no transitable)</title></rect>
+<text x="220" y="105" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="0" y="120" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{3,0} X (pared, no transitable)</title></rect>
+<text x="20" y="145" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="40" y="120" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{3,1} . (pasillo, transitable, costo 1)</title></rect>
+<text x="60" y="145" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="80" y="120" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{3,2} . (pasillo, transitable, costo 1)</title></rect>
+<text x="100" y="145" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="120" y="120" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{3,3} . (pasillo, transitable, costo 1)</title></rect>
+<text x="140" y="145" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="160" y="120" width="40" height="40" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"><title>{3,4} . (pasillo, transitable, costo 1)</title></rect>
+<text x="180" y="145" text-anchor="middle" font-family="monospace" font-size="16" fill="#263238">.</text>
+<rect x="200" y="120" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{3,5} X (pared, no transitable)</title></rect>
+<text x="220" y="145" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="0" y="160" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{4,0} X (pared, no transitable)</title></rect>
+<text x="20" y="185" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="40" y="160" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{4,1} X (pared, no transitable)</title></rect>
+<text x="60" y="185" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="80" y="160" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{4,2} X (pared, no transitable)</title></rect>
+<text x="100" y="185" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="120" y="160" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{4,3} X (pared, no transitable)</title></rect>
+<text x="140" y="185" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="160" y="160" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{4,4} X (pared, no transitable)</title></rect>
+<text x="180" y="185" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<rect x="200" y="160" width="40" height="40" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"><title>{4,5} X (pared, no transitable)</title></rect>
+<text x="220" y="185" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff">X</text>
+<line x1="60" y1="60" x2="100" y2="60" stroke="#d32f2f" stroke-width="4" stroke-linecap="round"/>
+<line x1="100" y1="60" x2="140" y2="60" stroke="#d32f2f" stroke-width="4" stroke-linecap="round"/>
+<line x1="140" y1="60" x2="180" y2="60" stroke="#d32f2f" stroke-width="4" stroke-linecap="round"/>
+<circle cx="60" cy="60" r="4" fill="#d32f2f"/>
+<circle cx="100" cy="60" r="4" fill="#d32f2f"/>
+<circle cx="140" cy="60" r="4" fill="#d32f2f"/>
+<circle cx="180" cy="60" r="4" fill="#d32f2f"/>
+<text x="8" y="224" font-family="sans-serif" font-size="14" fill="#d32f2f">Ruta de menor energía: 5 de energía, 3 movimientos</text>
+<rect x="8" y="240" width="14" height="14" fill="#37474f" stroke="#90a4ae" stroke-width="0.5"/>
+<text x="30" y="252" font-family="sans-serif" font-size="12" fill="#263238">X (pared, no transitable)</text>
+<rect x="8" y="262" width="14" height="14" fill="#eceff1" stroke="#90a4ae" stroke-width="0.5"/>
+<text x="30" y="274" font-family="sans-serif" font-size="12" fill="#263238">. (pasillo, transitable, costo 1)</text>
+<rect x="8" y="284" width="14" height="14" fill="#a1887f" stroke="#90a4ae" stroke-width="0.5"/>
+<text x="30" y="296" font-family="sans-serif" font-size="12" fill="#263238">L (lodo, transitable, costo 3)</text>
+<rect x="8" y="306" width="14" height="14" fill="#66bb6a" stroke="#90a4ae" stroke-width="0.5"/>
+<text x="30" y="318" font-family="sans-serif" font-size="12" fill="#263238">S (inicio, transitable, costo 0)</text>
+<rect x="8" y="328" width="14" height="14" fill="#ffca28" stroke="#90a4ae" stroke-width="0.5"/>
+<text x="30" y="340" font-family="sans-serif" font-size="12" fill="#263238">M (meta, transitable, costo 1)</text>
+</svg>

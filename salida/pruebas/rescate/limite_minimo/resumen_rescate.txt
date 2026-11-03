@@ -1,0 +1,6 @@
+Resumen del rescate (B = 1)
+Total de recorridos válidos: 1
+Recorridos con menos movimientos (1 movimientos): 1
+  - id 1: energía 1, 1 movimientos, {1,1}|{1,2} (derecha)
+Recorridos con menor consumo (1 de energía): 1
+  - id 1: energía 1, 1 movimientos, {1,1}|{1,2} (derecha)

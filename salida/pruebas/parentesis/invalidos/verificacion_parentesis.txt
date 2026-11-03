@@ -1,0 +1,13 @@
+Línea 2 | n=3 p=2 | (()()) | VÁLIDA (profundidad alcanzada 2)
+Línea 3 | n=3 p=2 | (() | INVÁLIDA (profundidad alcanzada 2)
+    - longitud 3, se esperaba 2n = 6
+    - no termina con balance cero (balance final 1)
+Línea 4 | n=2 p=2 | (x)) | INVÁLIDA (profundidad alcanzada 1)
+    - carácter no permitido 'x' en la posición 1 (solo ( y ))
+    - cierra más paréntesis de los abiertos: primer prefijo problemático "(x))" (posición 3)
+    - no termina con balance cero (balance final -1)
+Línea 5 | n=1 p=1 | )( | INVÁLIDA (profundidad alcanzada 0)
+    - cierra más paréntesis de los abiertos: primer prefijo problemático ")" (posición 0)
+Línea 6 | n=2 p=1 | (()) | INVÁLIDA (profundidad alcanzada 2)
+    - excede la profundidad máxima p = 1: primer prefijo problemático "((" (posición 1); profundidad máxima alcanzada 2
+Línea 7: registro incorrecto - se esperaban 3 campos (n;p;cadena) y hay 1

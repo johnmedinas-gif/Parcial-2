@@ -1,0 +1,7 @@
+Paso 0
+  {1,1} = 0
+Paso 1
+  {1,1} = 0
+  {1,2} = 1
+Índice de estabilización: 1
+Meta {1,2}: costo mínimo 1

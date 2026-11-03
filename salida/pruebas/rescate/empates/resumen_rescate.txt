@@ -1,0 +1,16 @@
+Resumen del rescate (B = 6)
+Total de recorridos válidos: 10
+Recorridos con menos movimientos (4 movimientos): 6
+  - id 1: energía 4, 4 movimientos, {1,1}|{1,2}|{1,3}|{2,3}|{3,3} (derecha, derecha, abajo, abajo)
+  - id 3: energía 4, 4 movimientos, {1,1}|{1,2}|{2,2}|{2,3}|{3,3} (derecha, abajo, derecha, abajo)
+  - id 4: energía 4, 4 movimientos, {1,1}|{1,2}|{2,2}|{3,2}|{3,3} (derecha, abajo, abajo, derecha)
+  - id 7: energía 4, 4 movimientos, {1,1}|{2,1}|{2,2}|{2,3}|{3,3} (abajo, derecha, derecha, abajo)
+  - id 8: energía 4, 4 movimientos, {1,1}|{2,1}|{2,2}|{3,2}|{3,3} (abajo, derecha, abajo, derecha)
+  - id 10: energía 4, 4 movimientos, {1,1}|{2,1}|{3,1}|{3,2}|{3,3} (abajo, abajo, derecha, derecha)
+Recorridos con menor consumo (4 de energía): 6
+  - id 1: energía 4, 4 movimientos, {1,1}|{1,2}|{1,3}|{2,3}|{3,3} (derecha, derecha, abajo, abajo)
+  - id 3: energía 4, 4 movimientos, {1,1}|{1,2}|{2,2}|{2,3}|{3,3} (derecha, abajo, derecha, abajo)
+  - id 4: energía 4, 4 movimientos, {1,1}|{1,2}|{2,2}|{3,2}|{3,3} (derecha, abajo, abajo, derecha)
+  - id 7: energía 4, 4 movimientos, {1,1}|{2,1}|{2,2}|{2,3}|{3,3} (abajo, derecha, derecha, abajo)
+  - id 8: energía 4, 4 movimientos, {1,1}|{2,1}|{2,2}|{3,2}|{3,3} (abajo, derecha, abajo, derecha)
+  - id 10: energía 4, 4 movimientos, {1,1}|{2,1}|{3,1}|{3,2}|{3,3} (abajo, abajo, derecha, derecha)
